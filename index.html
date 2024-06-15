@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        h1
+        {
+            color: #00FFFF;
+            text-align: centre;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin: 0;     
+        }
+        #link { color: 	#32CD32}
+        body{
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garro Homepage</title>
@@ -8,16 +26,16 @@
 <body>
     <h1>Homepage</h1>
     <ul>
-        <li><a href="./Lists/lists.html" target="_blank">My Top Anime List</a></li>
+        <li><a id="link" href="./Lists/lists.html" target="_blank">My Top Anime List</a></li>
         <img src="./images/Garro_Square.png">
-        <li><a href="https://anilist.co/user/GarroNinja/animelist" target="_blank" rel="noopener noreferrer">Complete Anime List</a></li>
+        <li><a id ="link" href="https://anilist.co/user/GarroNinja/animelist" target="_blank" rel="noopener noreferrer">Complete Anime List</a></li>
         <img src="./images/anilistss.png">
-        <li><a href="./html-boilerplate/boilerplate.html" target="_blank">Info about a random anime</a></li>
+        <li><a id = "link" href="./html-boilerplate/boilerplate.html" target="_blank">Info about a random anime</a></li>
         <img src="./images/bojji.jpeg">
         <!-- noreferrer can alone be used as it also acomplishes the same as noopener -->
     </ul>
     <h2>About</h2>
-    <p><a href="./pages/about.html" target="_blank">Learn more about this webpage</a></p>
+    <p><a id ="link" href="./pages/about.html" target="_blank">Learn more about this webpage</a></p>
     <!-- application of height and width attributes -->
     <img src="./images/stockdog.jpg" height="310" width="310">
     <!-- now this is relative linking -->
